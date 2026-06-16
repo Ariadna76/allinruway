@@ -21,7 +21,7 @@
         }
 
         body{
-            background:#0f1024;
+            background:#FDFBF7;
             overflow-x:hidden;
         }
 
@@ -35,20 +35,20 @@
         }
 
         .navbar-brand{
-            color:white;
+            color: #8C2626 !important; /* Rojo Guinda Cusco para el logo */
             font-weight:700;
             font-size:24px;
         }
 
         .navbar-nav .nav-link{
-            color:#dcdcdc;
+            color: #2C2523 !important; /* Marrón oscuro suave para que contraste con el fondo claro */
             margin-left:25px;
             transition:0.3s;
             font-size:14px;
         }
 
         .navbar-nav .nav-link:hover{
-            color:#ff5e00;
+            color: #8C2626 !important; /* Cambia al rojo guinda cuando pasas el mouse */
         }
 
         /* HERO */
@@ -239,84 +239,7 @@
 
         </div>
     </nav>
-
-    <!-- HERO -->
-
-    <section class="hero">
-
-        <div class="hero-content">
-
-            <h5>PLATAFORMA DIGITAL DE SERVICIOS </h5>
-
-            <h1>
-                Conectamos trabajadores <br>
-                independientes con clientes en Cusco
-            </h1>
-
-            <p>
-                Allin Ruway es una plataforma web diseñada para ayudar a carpinteros electricistas, gasfiteros, técnicos y otros trabajadores independientes a encontrar más oportunidades laborales de manera rápida, segura y confiable.
-            </p>
-
-            <a href="#" class="btn-custom">
-                EXPLORAR SERVICIOS 
-            </a>
-
-        </div>
-        <br> <br>
-
-        <!-- SERVICES -->
-
-        <div class="services container">
-
-            <div class="row g-4">
-
-                <div class="col-md-4">
-
-                    <div class="service-box">
-
-                        <h4>CARPINTERÍA</h4>
-
-                        <p>
-                            Encuentra carpinteros calificados para muebles, reparaciones y proyectos personalizados.
-                        </p>
-
-                    </div>
-
-                </div>
-
-                <div class="col-md-4">
-
-                    <div class="service-box">
-
-                        <h4>ELECTRICIDAD</h4>
-
-                        <p>
-                            Técnicos especializados para instalaciones, mantenimiento y reparación eléctrica.
-                        </p>
-
-                    </div>
-
-                </div>
-
-                <div class="col-md-4">
-
-                    <div class="service-box">
-
-                        <h4>GASFITERÍA</h4>
-
-                        <p>
-                            Servicios rápidos y confiables para problema tuberías, agua y mantenimiento del hogar.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
+    
 
     @yield('content')
 
