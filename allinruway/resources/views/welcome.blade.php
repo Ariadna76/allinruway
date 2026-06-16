@@ -29,7 +29,7 @@
                             </p>
                         </div>
                         <div class="mt-3">
-                            <a href="/nosotros" class="btn text-white fw-bold d-block py-2.5" style="background-color: #D13441; border-radius: 8px; font-size: 15px; text-decoration: none; transition: 0.2s;" onmouseover="this.style.backgroundColor='#B91C1C'" onmouseout="this.style.backgroundColor='#D13441'">
+                            <a href="{{ route('cliente.buscar') }}" class="btn btn-outline-danger px-4 py-2 fw-bold">
                                 Ingresar como Cliente
                             </a>
                         </div>
